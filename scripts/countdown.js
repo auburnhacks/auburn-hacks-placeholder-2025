@@ -4,7 +4,7 @@ function countDown() {
     document.getElementsByClassName("count-down-counter");
   // goes through the array with the class name count-down-counter and creates the create down for each element in the array
 
-  let countDownDate = new Date("Mar 29, 2025 00:00:00").getTime();
+  let countDownDate = new Date("Oct 1, 2025 00:00:00").getTime();
   let present = new Date().getTime();
   let distance = countDownDate - present;
   let months = Math.floor(distance / (1000 * 60 * 60 * 24 * 30));
